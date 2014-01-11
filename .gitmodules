@@ -192,3 +192,9 @@
 [submodule "bundle/vim-scratch"]
 	path = bundle/vim-scratch
 	url = git@github.com:duff/vim-scratch.git
+[submodule "bundle/YankRing"]
+	path = bundle/YankRing
+	url = git@github.com:vim-scripts/YankRing.vim.git
+[submodule "bundle/ruby-matchit"]
+	path = bundle/ruby-matchit
+	url = https://github.com/vim-scripts/ruby-matchit.git
