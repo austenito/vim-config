@@ -83,6 +83,7 @@ map <D-N>       :CtrlPClearCache<CR>:CtrlP<CR>
 map <leader>F   :CtrlPClearCache<CR>:CtrlP<CR>
 nmap <C-p>      :CtrlP<CR>
 map <leader>f   :CtrlP<CR>
+map <leader>B   :CtrlPBuffer<CR>
 
 " <Leader>a to start an Ag search
 map <Leader>a :Ag<space>
