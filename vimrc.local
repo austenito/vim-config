@@ -24,7 +24,6 @@ set background=dark             " sets the background color (I like it dark)
 colorscheme molokai             " <3 colorscheme ftw.
 
 " show end of line
-set list
 set listchars=trail:·
 
 " highlight line number
