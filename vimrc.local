@@ -5,6 +5,9 @@ set clipboard=unnamed           " share clipboard with win
 set guifont=Monaco:h12
 set visualbell                " no error bells
 set wildmenu                    " show autocomplete options
+set wrap
+set linebreak
+set nolist  " list disables linebreak
 
 "settings that cause tmux to explode
 set t_Co=256
