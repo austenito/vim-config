@@ -32,12 +32,6 @@ highlight CursorLineNR ctermbg=28 ctermfg=white
 " highlight active tab
 highlight TabLineSel ctermbg=28 ctermfg=White
 
-" simplify window navigation with ctrl
-map <C-J> <C-W>j
-map <C-K> <C-W>k
-map <C-L> <C-W>l
-map <C-H> <C-W>h
-
 " buffer resizing mappings (shift + arrow key)
 nnoremap <S-Up> <c-w>-
 noremap <S-Down> <c-w>+
