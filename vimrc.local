@@ -6,8 +6,6 @@ set guifont=Monaco:h12
 set visualbell                " no error bells
 set wildmenu                    " show autocomplete options
 set wrap
-set linebreak
-set nolist  " list disables linebreak
 
 "settings that cause tmux to explode
 set t_Co=256
@@ -24,6 +22,7 @@ set background=dark             " sets the background color (I like it dark)
 colorscheme molokai             " <3 colorscheme ftw.
 
 " show end of line
+set list
 set listchars=trail:·
 
 " highlight line number
@@ -77,7 +76,7 @@ map <D-N>       :CtrlPClearCache<CR>:CtrlP<CR>
 map <leader>F   :CtrlPClearCache<CR>:CtrlP<CR>
 nmap <C-p>      :CtrlP<CR>
 map <leader>f   :CtrlP<CR>
-map <leader>B   :CtrlPBuffer<CR>
+map <leader>bb   :CtrlPBuffer<CR>
 
 " <Leader>a to start an Ag search
 map <Leader>a :Ag<space>
